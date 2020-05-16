@@ -1,0 +1,76 @@
+/* layout */
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.half-circle,
+.half-circle,
+.boxed {
+  width: 100%;
+  height: 33%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  border-radius: 4%;
+  font-size: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gray; /* Green */
+  color: white;
+}
+
+/* typography */
+
+p {
+  font-size: 120%;
+  margin: 0;
+}
+
+/* components style  */
+.half-circle {
+  background-color: gray;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.facing-up {
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  align-items: flex-start;
+}
+
+.facing-down {
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  align-items: flex-end;
+}
+
+.boxed {
+  width: 30%;
+  overflow: scroll;
+  overflow-x: auto;
+  margin-top: 10px;
+}
