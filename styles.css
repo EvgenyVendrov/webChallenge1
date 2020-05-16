@@ -68,7 +68,7 @@ p {
   align-items: flex-end;
 }
 
-.boxed {
+.box {
   width: 30%;
   overflow: scroll;
   overflow-x: auto;
