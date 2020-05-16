@@ -1,5 +1,5 @@
-const up_btn = document.querySelector(".button-up");
-const dwn_btn = document.querySelector(".button-down");
+const up_btn = document.querySelector(".facing-up button");
+const dwn_btn = document.querySelector(".facing-down button");
 const text_box = document.querySelector(".boxed");
 
 dwn_btn.addEventListener("click", () => {
